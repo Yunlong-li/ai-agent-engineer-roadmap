@@ -36,6 +36,16 @@
 - [interview](./interview/)：面试题库和回答模板。
 - [templates](./templates/)：学习日志、项目复盘、简历描述模板。
 
+## 推荐学习顺序
+
+1. 先读 [预备知识和环境](./00-prerequisites.md)，确认 Python、Node、Git、API 调用和基础后端环境都能跑起来。
+2. 粗看一遍 [视觉图谱](./visuals/)，先建立全局地图，不需要一开始就看懂每个细节。
+3. 把 [84 天逐日计划](./daily-plan.md) 当作主线，每天按它推进当天任务和产出。
+4. 按计划穿插学习 [核心教材](./lessons/01-agent-mental-model.md)，顺序是 Agent 心智模型、LLM API 与 Prompt、RAG、Tool Calling/MCP、Agent 模式、评测观测和生产化。
+5. 跟核心教材配套完成 [代码实验](./labs/)：LLM API 后做 Lab 01，RAG 后做 Lab 02，Tool Calling/MCP 后做 Lab 03，评测和 Trace 后做 Lab 04。
+6. 最后集中打磨 [简历项目](./projects/)，把企业经营数据分析 Agent 或 AI Coding / DevOps Agent 做成能写进简历、能面试讲清楚的项目。
+7. 面试前用 [面试题库](./interview/agent-rag-questions.md) 和模板复盘项目表达。
+
 ## 推荐主线
 
 第一阶段，后端工程和 LLM API。你要先变成一个能写稳定服务的人。
