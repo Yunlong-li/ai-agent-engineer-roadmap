@@ -1,0 +1,16 @@
+{
+  "name": "ai-agent-engineer-roadmap",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "面向大厂 AI Agent 开发工程师的 84 天学习路线和项目训练营",
+  "scripts": {
+    "docs:dev": "vitepress dev . --host 0.0.0.0",
+    "docs:build": "vitepress build .",
+    "docs:preview": "vitepress preview . --host 0.0.0.0"
+  },
+  "devDependencies": {
+    "mermaid": "^11.12.2",
+    "vitepress": "^1.6.4"
+  }
+}

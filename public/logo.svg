@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="AI Agent Roadmap logo">
+  <rect width="64" height="64" rx="14" fill="#2563eb"/>
+  <circle cx="20" cy="22" r="6" fill="#ffffff"/>
+  <circle cx="44" cy="22" r="6" fill="#ffffff"/>
+  <circle cx="32" cy="43" r="7" fill="#16a34a"/>
+  <path d="M25 24h14M22 28l7 10M42 28l-7 10" stroke="#dbeafe" stroke-width="4" stroke-linecap="round"/>
+</svg>
+
