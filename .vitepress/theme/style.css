@@ -29,10 +29,14 @@
   border: 1px solid var(--vp-c-divider);
   border-radius: 8px;
   background: var(--vp-c-bg-soft);
+  overscroll-behavior-x: contain;
+  scrollbar-gutter: stable;
 }
 
 .vp-mermaid svg {
-  max-width: 100%;
+  display: block;
+  width: max(1600px, 100%);
+  max-width: none;
   height: auto;
 }
 
@@ -45,6 +49,10 @@
 
   .vp-mermaid {
     padding: 10px;
+  }
+
+  .vp-mermaid svg {
+    width: 1280px;
   }
 }
 
