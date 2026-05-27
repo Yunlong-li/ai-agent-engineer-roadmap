@@ -24,7 +24,7 @@ features:
   - title: 能沉淀简历项目
     details: 重点打磨企业经营数据分析 Agent，并提供 AI Coding / DevOps Agent 备选项目。
   - title: 手机友好
-    details: 使用 VitePress 构建，可以部署到 GitHub Pages，随时查看和复习。
+    details: 使用 VitePress 构建，按章节组织教材、实验、笔记和项目资料，方便随时查看和复习。
 ---
 
 ## 推荐学习顺序

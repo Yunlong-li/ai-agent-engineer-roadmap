@@ -24,9 +24,9 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '每日计划', link: '/daily-plan' },
       { text: '核心教材', link: '/lessons/01-agent-mental-model' },
+      { text: '笔记', link: '/notes/notebook' },
       { text: '项目', link: '/projects/' },
-      { text: '面试', link: '/interview/' },
-      { text: '部署', link: '/deployment' }
+      { text: '面试', link: '/interview/' }
     ],
     sidebar: [
       {
@@ -34,8 +34,7 @@ export default defineConfig({
         items: [
           { text: '课程首页', link: '/' },
           { text: '预备知识和环境', link: '/00-prerequisites' },
-          { text: '84 天逐日计划', link: '/daily-plan' },
-          { text: 'GitHub Pages 部署', link: '/deployment' }
+          { text: '84 天逐日计划', link: '/daily-plan' }
         ]
       },
       {
@@ -71,6 +70,13 @@ export default defineConfig({
           { text: '工具调用安全链路', link: '/visuals/tool-calling-safety' },
           { text: '84 天学习路径', link: '/visuals/learning-roadmap' },
           { text: '生图提示词', link: '/visuals/imagegen-prompts' }
+        ]
+      },
+      {
+        text: '学习笔记',
+        collapsed: true,
+        items: [
+          { text: 'Python 类型标注', link: '/notes/notebook' }
         ]
       },
       {

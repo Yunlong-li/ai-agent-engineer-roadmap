@@ -32,6 +32,7 @@
 - [lessons](./lessons/01-agent-mental-model.md)：核心知识教材。
 - [labs](./labs/)：可运行代码实验。
 - [visuals](./visuals/)：可编辑学习图谱和架构图。
+- [notes](./notes/notebook.md)：学习笔记。
 - [projects](./projects/)：简历项目方案。
 - [interview](./interview/)：面试题库和回答模板。
 - [templates](./templates/)：学习日志、项目复盘、简历描述模板。
