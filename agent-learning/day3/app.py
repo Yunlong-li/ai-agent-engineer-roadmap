@@ -16,3 +16,6 @@ class ChatResponse(BaseModel):
 @app.post("/chat", response_model=ChatResponse)
 def chat(req: ChatRequest) -> ChatResponse:
     return ChatResponse(answer=f"收到：{req.message}")
+
+
+# python -m uvicorn app:app --reload
