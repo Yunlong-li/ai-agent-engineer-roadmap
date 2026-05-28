@@ -10,8 +10,8 @@ hero:
       text: 开始学习 Day 1
       link: /daily-plan
     - theme: alt
-      text: 查看视觉图谱
-      link: /visuals/
+      text: 进入实战教程
+      link: /projects/agent-tutorial/
     - theme: alt
       text: 主项目方案
       link: /projects/enterprise-data-analysis-agent
@@ -34,8 +34,9 @@ features:
 3. 把 [84 天逐日学习计划](/daily-plan) 当作主线，每天按它推进当天任务和产出。
 4. 按计划穿插学习 [核心教材](/lessons/01-agent-mental-model)，顺序是 Agent 心智模型、LLM API 与 Prompt、RAG、Tool Calling/MCP、Agent 模式、评测观测和生产化。
 5. 跟核心教材配套完成 [代码实验](/labs/)：LLM API 后做 Lab 01，RAG 后做 Lab 02，Tool Calling/MCP 后做 Lab 03，评测和 Trace 后做 Lab 04。
-6. 最后集中打磨 [简历项目](/projects/)，把企业经营数据分析 Agent 或 AI Coding / DevOps Agent 做成能写进简历、能面试讲清楚的项目。
-7. 面试前用 [面试题库](/interview/agent-rag-questions) 和模板复盘项目表达。
+6. 按 [企业经营数据分析 Agent 实战教程](/projects/agent-tutorial/) 搭一个完整项目，理解 Schema、工具层、RAG、编排器、API 和 trace。
+7. 最后集中打磨 [简历项目](/projects/)，把企业经营数据分析 Agent 或 AI Coding / DevOps Agent 做成能写进简历、能面试讲清楚的项目。
+8. 面试前用 [面试题库](/interview/agent-rag-questions) 和模板复盘项目表达。
 
 ## 目标能力
 

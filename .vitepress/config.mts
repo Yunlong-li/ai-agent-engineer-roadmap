@@ -25,6 +25,7 @@ export default defineConfig({
       { text: '每日计划', link: '/daily-plan' },
       { text: '核心教材', link: '/lessons/01-agent-mental-model' },
       { text: '笔记', link: '/notes/notebook' },
+      { text: '实战教程', link: '/projects/agent-tutorial/' },
       { text: '项目', link: '/projects/' },
       { text: '面试', link: '/interview/' }
     ],
@@ -77,6 +78,18 @@ export default defineConfig({
         collapsed: true,
         items: [
           { text: 'Python 类型标注', link: '/notes/notebook' }
+        ]
+      },
+      {
+        text: '实战项目教程',
+        collapsed: false,
+        items: [
+          { text: '教程总览', link: '/projects/agent-tutorial/' },
+          { text: '01. 起步和目录结构', link: '/projects/agent-tutorial/01-start' },
+          { text: '02. Schema 和业务数据', link: '/projects/agent-tutorial/02-schema-and-data' },
+          { text: '03. SQL、RAG 和分析工具', link: '/projects/agent-tutorial/03-tools' },
+          { text: '04. 编排器和 API', link: '/projects/agent-tutorial/04-orchestrator-api' },
+          { text: '05. 运行、测试和扩展', link: '/projects/agent-tutorial/05-run-and-test' }
         ]
       },
       {
