@@ -1,0 +1,5 @@
+question,answer,owner
+"客户问知识库支持哪些文件格式怎么办？","当前演示支持 Markdown、TXT、CSV、JSON。安装 MarkItDown 后，可以继续处理 PDF、Word、Excel、PowerPoint、HTML、图片、音频和 ZIP 等格式。","RAG 平台组"
+"为什么回答里必须带引用？","引用能帮助用户定位答案来源，降低 RAG 幻觉，也方便人工核验文档是否过期。","AI 应用组"
+"chunk 太大有什么问题？","chunk 太大会混入多个主题，检索命中后上下文噪声变多，模型更容易答偏。","算法工程组"
+"chunk 太小有什么问题？","chunk 太小会丢失上下文，答案可能缺少限定条件，需要依赖 chunk overlap 或重排序补救。","算法工程组"
